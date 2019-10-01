@@ -5,7 +5,8 @@
 
 .container {
   width: 920px;
-  margin: 0 auto;
+  margin: auto;
+  padding-top: 96px;
 }
 
 .d-inline-block {
@@ -16,13 +17,34 @@
   display: inline-block;
 }
 
+.navbar {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(170, 163, 32, 0.10688025210084029) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 920px;
+  position: fixed;
+  top: 0;
+  transition: transform 1s;
+}
+
+.navbar-hide {
+  transform: translateY(-100%);
+}
 .nav {
   margin: 40px 0;
 }
 
 .nav-item {
   margin: 0 30px;
-  color: lightgray;
+  color: tomato;
+}
+
+.nav-item:hover {
+  color: olive;
 }
 
 .jumbotron {
