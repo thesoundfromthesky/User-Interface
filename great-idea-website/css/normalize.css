@@ -1,0 +1,15 @@
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: 1px solid black;
+  padding: 5px 41px;
+  font-size: 19px;
+}
